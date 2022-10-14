@@ -27,6 +27,7 @@ Extensions
    extensions/moveaxis.rst
    extensions/pad.rst
    extensions/heaviside.rst
+   extensions/isin.rst
    extensions/SparseArray:
     def __init__.rst
    extensions/NativeSparseArray:
