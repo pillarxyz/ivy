@@ -2,6 +2,8 @@ isin
 ====
 
 .. autofunction:: ivy.functional.ivy.extensions.isin
+
+.. autofunction:: ivy.array.array_methods.isin
 |
 | **Supported Frameworks:**
 
@@ -21,3 +23,13 @@ isin
 
 .. |numpy_logo| image:: ../../../logos/supported/numpy_logo.png
    :target: https://numpy.org
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: -1
+   :caption: isin
+
+   isin/isin_functional.rst
+   isin/isin_array.rst
+
