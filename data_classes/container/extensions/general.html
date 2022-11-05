@@ -145,18 +145,18 @@ this method with minimal changes.</p>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>self</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Container</span></code>) – input array</p></li>
 <li><p><strong>test_elements</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Container</span></code>) – values against which to test for each input element</p></li>
-<li><p><strong>assume_unique</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code>]) – If True, assumes both elements and test_elements contain unique elements, which can speed up the calculation. (default: <code class="docutils literal notranslate"><span class="pre">False</span></code>)
-by default is False</p></li>
-<li><p><strong>invert</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code>]) – If True, inverts the boolean return array, resulting in True values for elements not in test_elements. (default: <code class="docutils literal notranslate"><span class="pre">False</span></code>)
-by default is False</p></li>
+<li><p><strong>assume_unique</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code>]) – If True, assumes both elements and test_elements contain unique elements, (default: <code class="docutils literal notranslate"><span class="pre">False</span></code>)
+which can speed up the calculation. Default value is False.</p></li>
+<li><p><strong>invert</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code>]) – If True, inverts the boolean return array, resulting in True values for (default: <code class="docutils literal notranslate"><span class="pre">False</span></code>)
+elements not in test_elements. Default value is False.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Return type</dt>
 <dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Container</span></code></p>
 </dd>
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><em>ret</em> – output a boolean array of the same shape as elements that is True for elements in test_elements
-and False otherwise.</p>
+<dd class="field-odd"><p><em>ret</em> – output a boolean array of the same shape as elements that is True for
+elements in test_elements and False otherwise.</p>
 </dd>
 </dl>
 <p class="rubric">Examples</p>
@@ -179,18 +179,18 @@ this method with minimal changes.</p>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>element</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Container</span></code>) – input container</p></li>
 <li><p><strong>test_elements</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Container</span></code>) – values against which to test for each input element</p></li>
-<li><p><strong>assume_unique</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code>]) – If True, assumes both elements and test_elements contain unique elements, which can speed up the calculation. (default: <code class="docutils literal notranslate"><span class="pre">False</span></code>)
-by default is False</p></li>
-<li><p><strong>invert</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code>]) – If True, inverts the boolean return array, resulting in True values for elements not in test_elements. (default: <code class="docutils literal notranslate"><span class="pre">False</span></code>)
-by default is False</p></li>
+<li><p><strong>assume_unique</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code>]) – If True, assumes both elements and test_elements contain unique elements, (default: <code class="docutils literal notranslate"><span class="pre">False</span></code>)
+which can speed up the calculation. Default value is False.</p></li>
+<li><p><strong>invert</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code>]) – If True, inverts the boolean return array, resulting in True values for (default: <code class="docutils literal notranslate"><span class="pre">False</span></code>)
+elements not in test_elements. Default value is False.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Return type</dt>
 <dd class="field-even"><p><a class="reference internal" href="../base/ContainerBase.html#ivy.container.base.ContainerBase" title="ivy.container.base.ContainerBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">ContainerBase</span></code></a></p>
 </dd>
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><em>ret</em> – output a boolean container of the same shape as elements that is True for elements in test_elements
-and False otherwise.</p>
+<dd class="field-odd"><p><em>ret</em> – output a boolean container of the same shape as elements that is True for
+elements in test_elements and False otherwise.</p>
 </dd>
 </dl>
 <p class="rubric">Examples</p>
