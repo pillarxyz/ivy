@@ -74,6 +74,7 @@ Experimental
    experimental/dstack.rst
    experimental/atleast_2d.rst
    experimental/take_along_axis.rst
+   experimental/hsplit.rst
    experimental/is_ivy_sparse_array.rst
    experimental/is_native_sparse_array.rst
    experimental/native_sparse_array.rst

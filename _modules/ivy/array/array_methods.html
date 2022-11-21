@@ -6475,7 +6475,7 @@
     <span class="k">return</span> <span class="n">ivy</span><span class="o">.</span><span class="n">take_along_axis</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_data</span><span class="p">,</span> <span class="n">indices</span><span class="p">,</span> <span class="n">axis</span><span class="p">,</span> <span class="n">out</span><span class="o">=</span><span class="n">out</span><span class="p">)</span></div>
 
 
-<span class="k">def</span> <span class="nf">hsplit</span><span class="p">(</span>
+<div class="viewcode-block" id="hsplit"><a class="viewcode-back" href="../../../functional/ivy/experimental/hsplit/hsplit_array.html#ivy.array.array_methods.hsplit">[docs]</a><span class="k">def</span> <span class="nf">hsplit</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">:</span> <span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">,</span>
     <span class="n">indices_or_sections</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">]],</span>
     <span class="o">/</span><span class="p">,</span>
@@ -6493,7 +6493,7 @@
 <span class="sd">        Input array.</span>
 <span class="sd">    indices_or_sections</span>
 <span class="sd">        If indices_or_sections is an integer n, the array is split into n sections.</span>
-<span class="sd">        If the array is divisible by n along columns, each section will be of</span>
+<span class="sd">        If the array is divisible by n horizontally, each section will be of</span>
 <span class="sd">        equal size. If input is not divisible by n, the sizes of the first</span>
 <span class="sd">        int(ary.size(0) % n) sections will have size int(ary.size(0) / n) + 1, and</span>
 <span class="sd">        the rest will have size int(ary.size(0) / n).</span>
@@ -6505,7 +6505,7 @@
 <span class="sd">    Returns</span>
 <span class="sd">    -------</span>
 <span class="sd">    ret</span>
-<span class="sd">        input array split column-wise.</span>
+<span class="sd">        input array split horizontally.</span>
 
 <span class="sd">    Examples</span>
 <span class="sd">    --------</span>
@@ -6525,7 +6525,7 @@
 <span class="sd">                [10., 11.],</span>
 <span class="sd">                [14., 15.]]))</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">return</span> <span class="n">ivy</span><span class="o">.</span><span class="n">hsplit</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_data</span><span class="p">,</span> <span class="n">indices_or_sections</span><span class="o">=</span><span class="n">indices_or_sections</span><span class="p">,</span> <span class="n">out</span><span class="o">=</span><span class="n">out</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">ivy</span><span class="o">.</span><span class="n">hsplit</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_data</span><span class="p">,</span> <span class="n">indices_or_sections</span><span class="o">=</span><span class="n">indices_or_sections</span><span class="p">,</span> <span class="n">out</span><span class="o">=</span><span class="n">out</span><span class="p">)</span></div>
 
 
 <span class="c1">#ivy.array.general</span>
