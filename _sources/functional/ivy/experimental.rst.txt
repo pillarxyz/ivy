@@ -88,6 +88,7 @@ Experimental
    experimental/prelu.rst
    experimental/thresholded_relu.rst
    experimental/relu6.rst
+   experimental/batch_norm.rst
    experimental/is_ivy_sparse_array.rst
    experimental/is_native_sparse_array.rst
    experimental/native_sparse_array.rst
@@ -122,6 +123,7 @@ Experimental
    experimental/binarizer.rst
    experimental/conj.rst
    experimental/ldexp.rst
+   experimental/frexp.rst
    experimental/bind_custom_gradient_function.rst
    experimental/isin.rst
    experimental/dirichlet.rst
