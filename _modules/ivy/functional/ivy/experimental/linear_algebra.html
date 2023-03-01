@@ -1067,6 +1067,14 @@
 <span class="sd">    Examples</span>
 <span class="sd">    --------</span>
 <span class="sd">    With :class:`ivy.Array` input:</span>
+
+<span class="sd">    &gt;&gt;&gt; A = ivy.arange(2 * 3).reshape((2, 3))</span>
+<span class="sd">    &gt;&gt;&gt; B = ivy.arange(3 * 2).reshape((3, 2))</span>
+<span class="sd">    &gt;&gt;&gt; C = ivy.arange(2 * 2).reshape((2, 2))</span>
+<span class="sd">    &gt;&gt;&gt; ivy.multi_dot((A, B, C))</span>
+<span class="sd">    ivy.array([[ 26,  49],</span>
+<span class="sd">               [ 80, 148]])</span>
+
 <span class="sd">    &gt;&gt;&gt; A = ivy.arange(2 * 3).reshape((2, 3))</span>
 <span class="sd">    &gt;&gt;&gt; B = ivy.arange(3 * 2).reshape((3, 2))</span>
 <span class="sd">    &gt;&gt;&gt; C = ivy.arange(2 * 2).reshape((2, 2))</span>
